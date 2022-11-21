@@ -13,8 +13,8 @@
 int get_nflags(const char *str, int id)
 {
 	prn fns[] = {
-		{"c", print_char}, {"d", print_number},
-		{"s", print_str}, {"%", print_percent}, {NULL, NULL}
+		{"c", print_char}, {"s", print_str},
+		{"%", print_percent}, {NULL, NULL}
 	};
 	int i = 0, j = 0;
 
