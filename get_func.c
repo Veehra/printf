@@ -15,7 +15,8 @@ int (*get_func(const char *str, int id))(va_list)
 	/* fns is an array of structs containing the format and its function */
 	prn fns[] = {
 		{"c", print_char}, {"s", print_str},
-		{"%", print_percent}, {NULL, NULL}
+		{"%", print_percent}, {"i", print_number},
+		{"d", print_number}, {NULL, NULL}
 	};
 	int i = 0, j = 0;
 
