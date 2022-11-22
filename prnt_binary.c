@@ -16,7 +16,7 @@ int print_bin(va_list args)
 		_putchar('0');
 		return (1);
 	}
-	for (p = 0; num != 0; p++);
+	for (p = 0; num != 0; p++)
 	{
 		bin[p] = num % 2;
 		num /= 2;
