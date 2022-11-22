@@ -15,7 +15,7 @@ int get_nflags(const char *str, int id)
 	prn fns[] = {
 		{"c", print_char}, {"s", print_str},
 		{"%", print_percent}, {"i", print_number},
-		{"d", print_number}, {"R",print_rot13},{NULL, NULL}
+		{"d", print_number}, {"S",print_str},{NULL, NULL}
 	};
 	int i = 0, j = 0;
 
