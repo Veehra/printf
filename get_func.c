@@ -16,7 +16,7 @@ int (*get_func(const char *str, int id))(va_list)
 	prn fns[] = {
 		{"c", print_char}, {"s", print_str},
 		{"%", print_percent}, {"i", print_number},
-		{"d", print_number}, {"r",print_rev}, {NULL, NULL}
+		{"d", print_number}, {"R",print_rot13}, {NULL, NULL}
 	};
 	int i = 0, j = 0;
 
